@@ -1,0 +1,98 @@
+# Copyright (C) 2012 imath
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: BP Avatar Story 1.0\n"
+"Report-Msgid-Bugs-To: http://imath.owni.fr\n"
+"POT-Creation-Date: 2012-06-10 15:18:15+00:00\n"
+"PO-Revision-Date: 2012-11-18 15:16+0100\n"
+"Last-Translator: imath <i-math@club.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: buddybooth.php:15
+msgid ""
+"Hit the camera to take a Snapshot, then click the rec button to save your "
+"avatar"
+msgstr ""
+"Cliquez sur l&#39;appareil photo, ensuite cliquez sur le bouton rec pour "
+"enregistrer votre avatar"
+
+#: buddybooth.php:17
+msgid "<h3>Or</h3>Use the BuddyBooth !"
+msgstr "<h3>Ou</h3>Utilisez le photomaton !"
+
+#: buddybooth.php:18
+msgid "Oops, something went wrong"
+msgstr "Diantre, un problème est survenu :("
+
+#: buddybooth.php:19
+msgid "Snap shot"
+msgstr "Instantané"
+
+#: buddybooth.php:20
+msgid "Save shot"
+msgstr "Enregistrer"
+
+#: buddybooth.php:21
+msgid "Bravo! really nice avatar!"
+msgstr "Bravo! très jolie photo!"
+
+#: buddybooth.php:22
+msgid "Please wait for the video to load"
+msgstr "Vidéo en cours de chargement"
+
+#: buddybooth.php:23
+msgid "Please take a snapshot first"
+msgstr "Merci de prendre un instantané d&#39;abord."
+
+#: buddybooth.php:24
+msgid "You denied camera access.."
+msgstr "Vous avez refusé l&#39;accès à votre caméra"
+
+#: buddybooth.php:25
+msgid "Video stream loaded"
+msgstr "Vidéo chargée."
+
+#: buddybooth.php:26
+msgid "BuddyBooth requires window and navigator objects"
+msgstr "BuddyBooth a besoin des objets window et navigator"
+
+#: buddybooth.php:27
+msgid "Html context error"
+msgstr "Erreur de contexte Html"
+
+#: buddybooth.php:28
+msgid "Requesting video stream"
+msgstr "Flux vidéo demandé.."
+
+#: buddybooth.php:29
+msgid "Your browser does not support getUserMedia()"
+msgstr "Votre navigateur ne supporte pas getUserMedia()"
+
+#: cubepoint.php:22
+msgid "Points"
+msgstr "Points"
+
+#: profile-progression.php:61
+msgid "Update these infos to be at 100% :"
+msgstr "Mettez à jour ces infos pour être à 100%"
+
+#: profile-progression.php:66 profile-progression.php:68
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: profile-progression.php:72
+msgid "Bravo! your profile is complete!"
+msgstr "Bravo! votre profil est complété à 100%"
+
+#: profile-progression.php:76
+msgid "Start customizing your profile!"
+msgstr "Commencez à personnaliser votre profil!"
+
+#: profile-progression.php:76
+msgid "Click here to start!"
+msgstr "Cliquez ici pour commencer!"

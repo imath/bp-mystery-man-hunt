@@ -1,0 +1,77 @@
+/*
+|--------------------------------------------------------------------------
+| bp-avatar-info
+| http://imath.owni.fr/
+|--------------------------------------------------------------------------
+*/
+.avatar_container{
+	float:left;
+	padding:2px;
+}
+
+.avatar_container .avatar_info{
+	clear:both;
+	display:block;
+	text-align:center;
+	width:auto;
+	margin:0 auto;
+	background:rgba(0, 0, 0, .5);
+	color:#f1f1f1;
+}
+
+.avatar_container .avatar_info li{
+	padding-top:0;
+	padding-bottom:0;
+	float:none!important;
+	margin:0;
+}
+
+ul.item-list ul li.profile, ul.item-list ul li.cubepoints{
+	padding:0!important;
+}
+
+#friends-container a{
+	text-decoration:none;
+}
+#friends-container div.item-avatar img{
+	width:50px!important;
+	height:50px!important;
+}
+
+ul.item-list li .avatar_container, #sidebar-me .avatar_container, #item-header-avatar .avatar_container{
+	margin:0 10px 15px 0;
+}
+
+li.mini .avatar_container{
+	width:25px!important;
+	margin-left: 30px!important;
+}
+
+.activity-comments .avatar_container{
+	width:30px!important;
+}
+li.mini .ac-reply-avatar .avatar_container, .ac-reply-avatar .avatar_container{
+	width:55px!important;
+	margin-left:0!important;
+}
+li.mini .activity-comments .avatar_container{
+	margin-left:0!important;
+}
+li.mini .activity-comments .avatar_container img{
+	border:none;
+}
+.avatar_container img{
+	margin:0!important;
+}
+
+ul#topic-post-list .avatar_info{
+	line-height:13px;
+}
+
+li.mini .avatar_info,
+.activity-comments .avatar_info,
+#whats-new-avatar .avatar_info,
+.author-box .avatar_info,
+#wp-admin-bar-user-info .avatar_info{
+	display:none;
+}
