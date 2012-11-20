@@ -88,7 +88,7 @@ add_filter('bpmmh_avatar_extra_info', 'bpmmh_xprofile_add_info_under_avatar', 10
 
 function bpmmh_xprofile_add_info_under_avatar( $extra_infos, $user_id, $avatar_params, $image ) {
 	
-	if( ereg('bp-show-friends', $avatar_params['class'] ) ) 
+	if( strpos( $avatar_params['class'], 'bp-show-friends' ) > 0 ) 
 		return $extra_infos;
 	
 	$avatar_folder_dir = get_stylesheet_directory() .'/images';
@@ -157,7 +157,7 @@ function bpmmh_user_is_mysterious( $image, $params, $item_id ) {
 	if( !$is_no_avatar )
 		$has_gravatar = bpmmh_is_a_gravatar_user( $item_id );
 	
-	if( ereg('mystery-man.jpg', $image ) && $item_id == $bp->loggedin_user->id ) {
+	if( strpos( $image, 'mystery-man.jpg' ) > 0 && $item_id == $bp->loggedin_user->id ) {
 		
 		if( !$is_no_avatar && $has_gravatar )
 			return $image;
@@ -192,6 +192,10 @@ function bpmmh_is_a_gravatar_user( $item_id ){
 	$url = 'http://www.gravatar.com/' . $hash .'.php';
 	$request = new WP_Http;
 	$result = $request->request( $url );
+	
+	if( $result->errors )
+		return false;
+		
 	$profile = unserialize( $result['body'] );
 	
 	set_transient('gravatar_checked_'.$item_id, 1, 60 * 60 * 12);
@@ -311,7 +315,8 @@ function bpmmh_handle_blog_avatar( $avatar, $blog_id, $admin_avatar_args = false
 
 
 		foreach( $blog_posts as $attachment ) {
-			if( ereg('image', $attachment->post_mime_type ) && $attachment->post_parent > 0 ) {
+			
+			if( strpos( $attachment->post_mime_type, 'image' ) !== false && $attachment->post_parent > 0 ) {
 				$attachment_ids[] = $attachment->ID;
 			}
 		}

@@ -5,7 +5,7 @@ add_filter('bpmmh_avatar_extra_info', 'bpmmh_cubepoints_bp_show_friends', 11, 4 
 
 function bpmmh_cubepoints_bp_show_friends( $extra_infos, $user_id, $avatar_params, $image ) {
 	/* comment here if you want to add this info in other places than bp-show-friend widget */
-	if( !ereg('bp-show-friends', $avatar_params['class'] ) ) 
+	if( !strpos( $avatar_params['class'], 'bp-show-friends' ) ) 
 		return $extra_infos;
 	
 	$extra_infos['cubepoints'] = cp_displayPoints( $user_id, 1 );
