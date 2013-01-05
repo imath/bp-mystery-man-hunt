@@ -13,7 +13,7 @@ function bpmmh_setup() {
 /**
 * Part 1 of tutorial explains how works bp_core_fetch_avatar
 * You can read it (using google translate as it's in french) here :
-* http://imath.owni.fr/2012/11/18/buddypress-avatar-management/
+* http://imathi.eu/2012/11/18/buddypress-avatar-management/
 */
 
 /** Part 2 of tutorial : neutralize gravatar, set xprofile Service avatar, add extra info under avatar **/

@@ -2,7 +2,7 @@ BP Mystery Man Hunt
 ===================
 
 BP Mystery Man Hunt is a BuddyPress bp-default child theme. it features a collection of tips to try to encourage network members to have an avatar. In other words, we hunt mystery men avatars !
-I wrote a detailed description about it on [my blog](http://imath.owni.fr/2012/11/18/buddypress-avatar-management/)
+I wrote a detailed description about it on [my blog](http://imathi.eu/2012/11/18/buddypress-avatar-management/)
 This theme is available in french and in english.
 
 

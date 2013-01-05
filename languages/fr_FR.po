@@ -3,17 +3,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: BP Avatar Story 1.0\n"
-"Report-Msgid-Bugs-To: http://imath.owni.fr\n"
-"POT-Creation-Date: 2012-06-10 15:18:15+00:00\n"
-"PO-Revision-Date: 2012-11-18 15:16+0100\n"
-"Last-Translator: imath <i-math@club.fr>\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/bp-mystery-man-hunt\n"
+"POT-Creation-Date: 2013-01-05 17:32:08+00:00\n"
+"PO-Revision-Date: 2013-01-05 18:34+0100\n"
+"Last-Translator: imath <mathchristo@yahoo.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: buddybooth.php:15
+#: includes/buddybooth.php:15
 msgid ""
 "Hit the camera to take a Snapshot, then click the rec button to save your "
 "avatar"
@@ -21,78 +21,109 @@ msgstr ""
 "Cliquez sur l&#39;appareil photo, ensuite cliquez sur le bouton rec pour "
 "enregistrer votre avatar"
 
-#: buddybooth.php:17
+#: includes/buddybooth.php:17
 msgid "<h3>Or</h3>Use the BuddyBooth !"
 msgstr "<h3>Ou</h3>Utilisez le photomaton !"
 
-#: buddybooth.php:18
+#: includes/buddybooth.php:18
 msgid "Oops, something went wrong"
 msgstr "Diantre, un problème est survenu :("
 
-#: buddybooth.php:19
+#: includes/buddybooth.php:19
 msgid "Snap shot"
 msgstr "Instantané"
 
-#: buddybooth.php:20
+#: includes/buddybooth.php:20
 msgid "Save shot"
 msgstr "Enregistrer"
 
-#: buddybooth.php:21
+#: includes/buddybooth.php:21
 msgid "Bravo! really nice avatar!"
 msgstr "Bravo! très jolie photo!"
 
-#: buddybooth.php:22
+#: includes/buddybooth.php:22
 msgid "Please wait for the video to load"
 msgstr "Vidéo en cours de chargement"
 
-#: buddybooth.php:23
+#: includes/buddybooth.php:23
 msgid "Please take a snapshot first"
 msgstr "Merci de prendre un instantané d&#39;abord."
 
-#: buddybooth.php:24
+#: includes/buddybooth.php:24
 msgid "You denied camera access.."
 msgstr "Vous avez refusé l&#39;accès à votre caméra"
 
-#: buddybooth.php:25
+#: includes/buddybooth.php:25
 msgid "Video stream loaded"
 msgstr "Vidéo chargée."
 
-#: buddybooth.php:26
+#: includes/buddybooth.php:26
 msgid "BuddyBooth requires window and navigator objects"
 msgstr "BuddyBooth a besoin des objets window et navigator"
 
-#: buddybooth.php:27
+#: includes/buddybooth.php:27
 msgid "Html context error"
 msgstr "Erreur de contexte Html"
 
-#: buddybooth.php:28
+#: includes/buddybooth.php:28
 msgid "Requesting video stream"
 msgstr "Flux vidéo demandé.."
 
-#: buddybooth.php:29
+#: includes/buddybooth.php:29
 msgid "Your browser does not support getUserMedia()"
 msgstr "Votre navigateur ne supporte pas getUserMedia()"
 
-#: cubepoint.php:22
+#: includes/cubepoints.php:22
 msgid "Points"
 msgstr "Points"
 
-#: profile-progression.php:61
+#: includes/profile-progression.php:62
 msgid "Update these infos to be at 100% :"
 msgstr "Mettez à jour ces infos pour être à 100%"
 
-#: profile-progression.php:66 profile-progression.php:68
+#: includes/profile-progression.php:67 includes/profile-progression.php:69
 msgid "Update"
 msgstr "Mettre à jour"
 
-#: profile-progression.php:72
+#: includes/profile-progression.php:73
 msgid "Bravo! your profile is complete!"
 msgstr "Bravo! votre profil est complété à 100%"
 
-#: profile-progression.php:76
-msgid "Start customizing your profile!"
-msgstr "Commencez à personnaliser votre profil!"
+#. Theme Name of the plugin/theme
+msgid "BP Mystery Man Hunt"
+msgstr "BP Mystery Man Hunt"
 
-#: profile-progression.php:76
-msgid "Click here to start!"
-msgstr "Cliquez ici pour commencer!"
+#. Theme URI of the plugin/theme
+msgid "http://imathi.eu/2012/11/18/buddypress-avatar-management/"
+msgstr "http://imathi.eu/2012/11/18/buddypress-avatar-management/"
+
+#. Description of the plugin/theme
+msgid "BuddyPress child theme containing a bunch of avatar tricks"
+msgstr ""
+"Un child thème BuddyPress contenant un lot de tricks pour manager les avatars"
+
+#. Author of the plugin/theme
+msgid "imath"
+msgstr "imath"
+
+#. Author URI of the plugin/theme
+msgid "http://imathi.eu"
+msgstr "http://imathi.eu"
+
+#. Tags of the plugin/theme
+msgid ""
+"blue, buddypress, custom-background, custom-header, custom-menu, editor-"
+"style, featured-image-header, featured-images, fixed-width, light, right-"
+"sidebar, rtl-language-support, sticky-post, threaded-comments, translation-"
+"ready, two-columns, white"
+msgstr ""
+"blue, buddy press, custom-background, custom-header, custom-menu, editor-"
+"style, featured-image-header, featured-images, fixed-width, light, right-"
+"sidebar, rtl-language-support, sticky-post, threaded-comments, translation-"
+"ready, two-columns, white"
+
+#~ msgid "Start customizing your profile!"
+#~ msgstr "Commencez à personnaliser votre profil!"
+
+#~ msgid "Click here to start!"
+#~ msgstr "Cliquez ici pour commencer!"
